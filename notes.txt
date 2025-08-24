@@ -12,3 +12,27 @@ A Simple AJAX Example
 
 4. Send a request
   - xhr.send()
+
+---
+
+GET vs POST
+
+- GET uses URL to send request
+- POST sends DATA in body of request
+
+---
+
+http://website.com/employees.php?lastName=Jones
+                                 |____________|
+                                       |
+                                  Query String
+
+Query String used to search database for single or a small subset of the data in the database
+
+- name/value pairs
+  -- lastName is the name
+  -- Jones is the value
+
+- Further Reading/Utilities
+  - www.url-encode-decode.com
+---
