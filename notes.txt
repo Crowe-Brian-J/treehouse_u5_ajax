@@ -9,3 +9,6 @@ A Simple AJAX Example
 
 3. Open a request
   - xhr.open('GET', '<url>')
+
+4. Send a request
+  - xhr.send()
