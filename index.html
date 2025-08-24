@@ -9,7 +9,12 @@
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = () => {
       if (xhr.readyState === 4) {
-        document.getElementById('ajax').innerHTML = xhr.responseText;
+        if (xhr.status === 200) {
+          document.getElementById('ajax').innerHTML = xhr.responseText;
+        } else {
+          // determine if user needs to see this - may not notice something's missing (like a helpful weather widget) unless it's pointed out
+          alert(xhr.statusText)
+        }
       }
     };
     xhr.open('GET', 'sidebar.html');
