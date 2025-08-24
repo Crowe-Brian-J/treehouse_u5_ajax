@@ -35,4 +35,29 @@ Query String used to search database for single or a small subset of the data in
 
 - Further Reading/Utilities
   - www.url-encode-decode.com
+
+---
+
+Using AJAX when submitting form: database can send back string that says form submitted successfully - or - it could send back "Error submitting form".
+
+---
+
+Structured Format
+
+XML isn't so easy to work with using JavaScript
+XML = extensible markup language
+
+JSON = 
+
+---
+
+Same Origin Policy
+  - AJAX Requests can't go to https but http is fine
+  - Switching from default port of 80 is a no-no
+  - Can't go to different servers
+  - Circumvent via: 
+    -- Web proxy
+    -- JSONP - JSON with Padding (not traditional AJAX)
+    -- CORS - Cross-Origin Resource Sharing
+
 ---
