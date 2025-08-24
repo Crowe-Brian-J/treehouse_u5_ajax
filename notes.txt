@@ -1,0 +1,7 @@
+A Simple AJAX Example
+
+1. Create an XMLHTTP Request object (const xhr in index.html)
+
+2. Create a callback function
+
+3. 
