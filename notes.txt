@@ -3,5 +3,8 @@ A Simple AJAX Example
 1. Create an XMLHTTP Request object (const xhr in index.html)
 
 2. Create a callback function
+  - Most complicated part/heart of
+  - ASYNCHRONOS - webpage continues doing other things while waiting for response
+    -- You can never tell in which order your AJAX callback functions will return
 
-3. 
+3. Open a request
